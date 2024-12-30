@@ -23,7 +23,7 @@ In the terminal that comes up, check that Python is installed:
 .. code-block:: console
 
     > python --version
-    Python 3.10.1
+    Python 3.11.1
 
 .. note::
 
@@ -44,7 +44,7 @@ with the following:
 .. code-block:: console
 
     > esphome version
-    Version: 2021.12.3
+    Version: 2024.12.2
 
 Mac
 ---
@@ -54,14 +54,22 @@ Mac & will run with no problem.
 
 Contributions are welcome!
 
-The process will likely be similar to Windows. You can install Python from the
-official site, and then install ESPHome with ``pip3 install esphome``.  You can
-then test that things are properly installed with the following:
+When `brew` is installed this will be the prefered method.
+
+.. code-block:: console
+
+    > brew install esphome
+
+Without `brew`, the process will likely be similar to Windows. You can install Python from the
+official site, and then install ESPHome with ``pip3 install esphome``. See Windows-instructions
+for more details.
+
+You can then test that things are properly installed with the following:
 
 .. code-block:: console
 
     $ esphome version
-    Version: 2021.12.3
+    Version: 2024.12.2
 
 Linux
 -----
@@ -72,7 +80,7 @@ least version 3.9:
 .. code-block:: console
 
     $ python3 --version
-    Python 3.9.15
+    Python 3.11.1
 
 Looks good? Now create a virtual environment to contain ESPHome and it's dependencies.
 
@@ -107,7 +115,7 @@ At this point, you should be able confirm that ESPHome has been successfully ins
 .. code-block:: console
 
     $ esphome version
-    Version: 2022.11.4
+    Version: 2024.12.2
 
 If you get an error like "Command not found", you need to add the binary to
 your ``PATH`` using ``export PATH=$PATH:$HOME/.local/bin``.
