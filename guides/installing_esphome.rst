@@ -23,7 +23,7 @@ In the terminal that comes up, check that Python is installed:
 .. code-block:: console
 
     > python --version
-    Python 3.11.1
+    Python 3.10.1
 
 .. note::
 
@@ -54,7 +54,8 @@ Mac & will run with no problem.
 
 Contributions are welcome!
 
-When `brew` is installed this will be the prefered method.
+When `brew` is installed this will be the prefered method. If you don't have Homebrew installed,
+visit `Homebrew's website <https://brew.sh>`_ for installation instructions.
 
 .. code-block:: console
 
@@ -80,7 +81,7 @@ least version 3.9:
 .. code-block:: console
 
     $ python3 --version
-    Python 3.11.1
+    Python 3.10.1
 
 Looks good? Now create a virtual environment to contain ESPHome and it's dependencies.
 
